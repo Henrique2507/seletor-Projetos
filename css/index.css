@@ -21,6 +21,9 @@
 
     color: aqua;
 }
+.corPreto a:focus{
+    color: orangered;
+}
 
 body{
     overflow-x: hidden;
