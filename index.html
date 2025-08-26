@@ -4,152 +4,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projetos</title>
-  <!-- CSS DO BOOTSTRAP -->
+  <title>ProjectSelector</title>
+  <!----CSS DO BOOTSTRAP-->
   <link rel="stylesheet" href="./src/framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
-  <!-- CSS EXTERNO -->
+  <!----CSS EXTERNO-->
   <link rel="stylesheet" href="./css/index.css">
-  <!-- FONT AWESOME BIBLIOTECA -->
+  <!----FONT AWESOME BIBLIOTECA-->
   <script src="https://kit.fontawesome.com/42c04c0a9c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <div id="pagina1">
+    <!----CABEÇALHO DA PAGINA-->
+    <header>
+
+      <div id="cabecalho">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary corPreto">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">PROJETO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#">SOBRE NÓS</a>
+                <a class="nav-link" aria-current="page" href="#">EM DESENVOLVIMENTO</a>
+                <a class="nav-link" aria-current="page" href="#">SAIR</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+
+    <!----CONTEUDO DA PAGINA-->
+
+    <main>
+        <section>
+            <div class="container-fluid text-center">
+              <div class="row">
+                <div class="col-md-8 mx-auto ">
+                  <h1 class="fw-light">APLICAÇÕES DESENVOLVIDAS COM</h1>
+                  <p style="font-size: 30px;">
+                    <i class="fa-brands fa-html5"></i>HTML v.5
+                    <i class="fa-brands fa-css3-alt"></i>CSSv.3
+                  </p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </section>
+      
 
 
+  <!----CARDS DOS SITES-->
+  <section>
+    <div class="container-fluid mt-5 d-flex justify-content-center">
 
 
+      <div class="row">
 
-  <!-- CABEÇALHO DA PAGINA -->
-  <header>
+        <div class="col">
 
-    <div id="cabecalho">
-      <nav class="navbar bg-body-tertiary corPreto">
-        <div class="container-fluid">
-          <a class="navbar-brand">Navbar</a>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.ytimg.com/vi/uNcP3Tie7TA/maxresdefault.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Display em CSS</h5>
+              <p class="card-text">
+                Projeto de um site para ensinar sobre CSS.</p>
+              <a href="../projeto/src/sites/projeto1.html" class="btn btn-danger">ABRIR</a>
+            </div>
+          </div>
+
         </div>
-      </nav>
-
-    </div>
-
-  </header>
 
 
 
 
+        <div class="col">
 
-  <!-- CONTEUDO DA PAGINA -->
+          <div class="card" style="width: 18rem;">
+            <img src="https://static.ifood-static.com.br/image/upload/t_high/logosgde/820fcba5-58ac-4878-b2ee-f88bde5c80f2/201907261222_ytFJ_i.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jacaré Lanches</h5>
+              <p class="card-text">
+                Jacaré lanches:"Sempre fazendo o MELHOR para nossos clientes!"</p>
+              <a href="../projeto/src/sites/inicio.html" class="btn btn-danger">ABRIR</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="col">
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.cariribt.com.br/web.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">EM DESENVOLVIMENTO...</h5>
+              <p class="card-text">
+                EM DESENVOLVIMENTO...</p>
+              <a href="#" class="btn btn-danger">FECHADO</a>
+            </div>
+          </div>
+
+        </div>
+
+
+  </section>
+
   <main>
 
-    <section>
-      <div class="container-fluid text-center">
-        <div class="row">
-          <div class="col-md-8 mx-auto ">
-            <h1 class="fw-light">APLICAÇÕES DESENVOLVIDAS COM</h1>
-            <p style="font-size: 30px;">
-              <i class="fa-brands fa-html5"></i>HTML v.5
-              <i class="fa-brands fa-css3-alt"></i>CSSv.3
-            </p>
-            <hr>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section>
-      <div class="container-fluid mt-5 d-flex justify-content-center align-items-center">
-
-        <div class="row">
-
-          <div class="col-sm-12 col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Display em CSS</h5>
-                <p class="card-text">
-                  Projeto de um site para explicar os displays em css
-                </p>
-                <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-sm-12 col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Display em CSS</h5>
-                <p class="card-text">
-                  Projeto de um site para explicar os displays em css
-                </p>
-                <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-sm-12 col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Display em CSS</h5>
-                <p class="card-text">
-                  Projeto de um site para explicar os displays em css
-                </p>
-                <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- RODAPE DA PAGINA -->
-  <footer>
-    <div>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-
-
-
-
-
-
-
-
 
     </div>
 
-  </footer>
+
+
+    <main>
+
+      <!----RODAPE DA PAGINA-->
+      <footer>
+
+        <div style="width: 100vw;  height: 20vh; margin-top: 10vh;"
+          class="corPreto d-flex justify-content-center align-items-center">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">© Copyright©2025, Industria SENAI. Todos os
+                direitos reservados. Todos os textos, imagens, gráficos, animações, vídeos, músicas, sons e outros
+                materiais são protegidos por direitos autorais e outros direitos de propriedade intelectual pertencentes
+                à Industria SENAI, suas subsidiárias, afiliadas e licenciantes.</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </footer>
 
 
 
 
-  <script src="./src/framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="./src/framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
